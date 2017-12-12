@@ -49,15 +49,3 @@ public class PluginMain {
 		myurlclass.close();
 	}
 }
-/*
-		URL[] url = {file.toURI().toURL()};
-		URLClassLoader urlcl = new URLClassLoader(url);
-		Class<?> c = urlcl.loadClass(chosen);
-		
-		Object mya = c.newInstance();
-		
-		Method mtd = c.getMethod("whoSaysHello");
-		mtd.invoke(mya);
-		mtd = c.getMethod("whoSaysBye");
-		mtd.invoke(mya);
-*/
